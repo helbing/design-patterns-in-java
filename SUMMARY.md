@@ -1,5 +1,3 @@
-# Summary
-
 * [Introduction](README.md)
 * [接口型](book/interface.md)
     * [适配器模式](book/interface/adapter.md)
@@ -11,7 +9,7 @@
     * [观察者模式](book/duty/observer.md)
     * [调停者模式](book/duty/mediator.md)
     * [代理模式](book/duty/proxy.md)
-    * [职责链](book/duty/responsibility.md)
+    * [职责链模式](book/duty/responsibility.md)
     * [享元模式](book/duty/flyweight.md)
 * [构造型](book/structure.md)
     * [构建者模式](book/structure/builder.md)
