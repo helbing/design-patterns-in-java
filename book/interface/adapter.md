@@ -12,7 +12,7 @@ package com.design.adapter;
 interface Student {
     public void study();
     public String name();
-    public Integer age();
+    public int age();
 }
 ```
 
