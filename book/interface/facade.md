@@ -52,7 +52,9 @@ public class Tea {
 }
 ```
 
-这时候我们实现一个Facade类
+### Facade类
+
+这时候我们实现一个Facade类，用于封装喝茶这一系列行为
 
 ```java
 package com.desgin.facade;
@@ -80,4 +82,4 @@ public class Facade {
 }
 ```
 
-以后如果我们需要喝茶只需要实例化Facade类，然后调用drinkTea函数即可。就算以后喝茶的执行顺序发生了改变，我们可以直接修改Facade类drinkTea。
+以后如果我们需要喝茶只需要实例化Facade类，然后调用drinkTea函数即可。就算以后喝茶的执行顺序发生了改变，我们直接修改Facade类drinkTea就可以了。
