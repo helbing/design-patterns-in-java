@@ -45,7 +45,7 @@ public class Seller extends Approval {
 
     public void approval(int price) {
         if (price <= 500) {
-            System.out.println("Seller可以审批通过不大于500元的订单");
+            System.out.println("Seller审批通过了不大于500元的订单");
         } else {
             this.handle.approval(price);
         }
@@ -62,7 +62,7 @@ public class TeamLeader extends Approval {
 
     public void approval(int price) {
         if (price <= 3000) {
-            System.out.println("TeamLeader可以审批通过不大于3000元的订单");
+            System.out.println("TeamLeader审批通过了不大于3000元的订单");
         } else {
             this.handle.approval(price);
         }
@@ -79,7 +79,7 @@ public class Manger extends Approval {
 
     public void approval(int price) {
 
-        System.out.println("Manger可以审批通过任何订单");
+        System.out.println("Manger审批通过了订单");
     }
 }
 ```
