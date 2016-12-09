@@ -101,9 +101,9 @@ public class Main {
 }
 
 /**
- * Seller可以审批通过不大于500元的订单
- * TeamLeader可以审批通过不大于3000元的订单
- * Manger可以审批通过任何订单
+ * Seller审批通过了大于500元的订单
+ * TeamLeader审批通过了不大于3000元的订单
+ * Manger审批通过了订单
  */
 ```
 
