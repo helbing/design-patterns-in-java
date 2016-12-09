@@ -13,7 +13,7 @@
     * [享元模式](book/duty/flyweight.md)
 * [构造型](book/structure.md)
     * [构建者模式](book/structure/builder.md)
-    * [工厂模式](book/structure/factory.md)
+    * [工厂方法模式](book/structure/factory.md)
     * [抽象工厂模式](book/structure/abstract.md)
     * [原型模式](book/structure/prototype.md)
     * [备忘录模式](book/structure/memento.md)
